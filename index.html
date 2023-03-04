@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Randomizer</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="form table">
+        <div class="row">
+            <div class="info" id="food-list-info">Food list, separate using enter/newline:</div>
+            <textarea class="input" id="food-list"></textarea>
+        </div>
+        <div class="row">
+            <div class="info" id="n-result-info">Number of result:</div>
+            <input class="input" type="text" name="n-result" id="n-result" value="2">
+        </div>
+        <div class="row">
+            <button class="btn" id="submit" onclick="randomize()">Submit</button>
+        </div>
+    </div>
+    <div class="table">
+        Result:
+        <p class="row" id="result"></p>
+    </div>
+</body>
+</html>

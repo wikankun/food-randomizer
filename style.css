@@ -1,0 +1,21 @@
+.table {
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.table .row {
+    line-height: 1.5em;
+    word-break: break-all;
+    margin-bottom: 5px;
+}
+
+/* .input {
+    width: 100%;
+} */
+
+#food-list {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 200px;
+}
